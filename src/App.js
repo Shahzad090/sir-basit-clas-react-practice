@@ -22,7 +22,7 @@ function App() {
 
 
 <div>
- <input palaceholder="enter name"
+ <input palaceholder="enter name"/>
 </div>
 
 export default App;
