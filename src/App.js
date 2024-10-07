@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ABButton from "./component/ABButton"
+import input from "./component/input";
+
 
 function App() {
+  const buttonClick = () => {
+    console.log("Button click from parent");
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save t.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <ABButton btnClick={buttonClick}
+      label="Register" className="abc" />
+      <ABButton label="" />
+      <ABButton label="login" />
+      <ABButton label="signup" />
+      <ABButton label="ok" />
+      <ABButton label="cancel" />
+      </div>
   );
 }
+
+
+<div>
+ <input palaceholder="enter name"
+</div>
 
 export default App;
