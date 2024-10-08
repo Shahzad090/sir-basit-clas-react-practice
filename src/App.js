@@ -12,7 +12,7 @@ function App() {
       <ABButton btnClick={buttonClick}
       label="Register" className="abc" />
       <ABButton label="" />
-      <ABButton label="l" />
+      <ABButton label="" />
       <ABButton label="signup" />
       <ABButton label="ok" />
       <ABButton label="cancel" />
